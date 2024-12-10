@@ -57,7 +57,7 @@ A simple blog application built with Flask and MongoDB, allowing users to create
 
 4. Install required dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install -r req.txt
    ```
 
 5. Ensure MongoDB is running on your local machine.
