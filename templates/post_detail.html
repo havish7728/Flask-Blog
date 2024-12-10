@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ post.title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>{{ post.title }}</h1>
+    </header>
+    <div class="container">
+        <p>{{ post.content }}</p>
+        <p>Posted on: {{ post.created_at }}</p>
+    </div>
+</body>
+</html>
